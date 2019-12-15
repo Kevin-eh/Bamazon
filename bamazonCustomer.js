@@ -70,6 +70,7 @@ connection.connect(function(err) {
                 console.log(
                   "RUFFIAN THATS TOO MANY. Traveler do you take me for a Fool? Leave my shop! At once! Begone with you!"
                 );
+                connection.end();
               }
               //   console.log(chosenItem);
             }
